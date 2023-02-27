@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="selectSection">
+            <div class="dateSection" onclick="this.innerHTML = Date()">10 Friday December,2021</div>
+            <div class="selectBar" >
+                <!-- <form action=""> -->
+                  
+                    <div class="bar-element select-City">
+                        <label for="city" class="city-lebal">Select Place</label>
+                        <select name="" id="city">
+                            <!-- <option value="All-Places">All Places</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Cochin">Cochin</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="New Delhi">New Delhi</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Agartala">Agartala</option>
+                            <option value="Ahmedabad">Ahmedabad</option> -->
+                        </select>
+                    </div>
+                    <div class="bar-element select-week">
+                        <select name="" id="">
+                            <option value="One-W"></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>  
+                     
+                    <div class="bar-element select-date">
+                        <select name="" id="">
+
+                       </select>
+                    </div>
+                    <div class="bar-element select-go">
+                       <button onclick="handleSeachClick(this)">Go</button>
+                    </div>
+                        
+                <!-- </form> -->
+            </div>
+            <div class="citySection" id="temp-data">
+                <img src="" alt=""> 
+                <span> 23o</span> 
+                <span>ahmed</span> 
+                <span>IN</span> 
+            </div>
+        </div>
+        <!-- //////////////////////-------------this is detail components section                         ////////////////////////////////////////////////// -->
+        <div class="allDetail" id="allDetail">
+            <!-- <div class="cityDetailSection" id="cityDetailSection">
+                <div class="city-detail-element">
+                    <div class="first-derail">
+                        <p><b>Bahamas Islands</b></p>
+                        <p>24 April-02 May,2021</p>
+                        <p>Category/Ocean</p>
+                    </div>
+                    <div class="temprature">
+                        <p>Average temperature</p>
+                        <div class="celcus">
+                            +16 o c
+                        </div>
+                    </div>
+                </div>
+                <div class="piture-detail-element">
+                    <img id="city-image" src="./CleanShot 2021-12-10 at 20.44.14@2x.png" alt="" srcset="">
+                </div>
+                <div class="price-detail-elemtn">
+                    <div class="price-detail-name">
+                        <p>Total Price:</p>
+                        <h3>$600</h3>
+                    </div>
+                
+                    <button>Expore</button>
+                </div>
+            </di    -->
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

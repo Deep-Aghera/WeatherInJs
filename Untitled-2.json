@@ -1,0 +1,41 @@
+{
+    "request": {
+        "type": "City",
+        "query": "Ahmedabad, India",
+        "language": "en",
+        "unit": "m"
+    },
+    "location": {
+        "name": "Ahmedabad",
+        "country": "India",
+        "region": "Gujarat",
+        "lat": "23.033",
+        "lon": "72.617",
+        "timezone_id": "Asia/Kolkata",
+        "localtime": "2023-01-20 18:11",
+        "localtime_epoch": 1674238260,
+        "utc_offset": "5.50"
+    },
+    "current": {
+        "observation_time": "12:41 PM",
+        "temperature": 26,
+        "weather_code": 122,
+        "weather_icons": [
+            "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+        ],
+        "weather_descriptions": [
+            "Smoke"
+        ],
+        "wind_speed": 9,
+        "wind_degree": 320,
+        "wind_dir": "NW",
+        "pressure": 1012,
+        "precip": 0,
+        "humidity": 32,
+        "cloudcover": 0,
+        "feelslike": 26,
+        "uv_index": 1,
+        "visibility": 6,
+        "is_day": "no"
+    }
+}
